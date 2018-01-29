@@ -17,13 +17,15 @@
 .nav-main > ul {
     margin: 0;
     padding: 150;
-    float: right;
+    float: left;
     list-style-type: none;
-    background-color: #38393d;
+	background-color: #38393d;
+	
 }
 
 .nav-main >ul > li {
-    float: left;
+	float: left ;
+	
 }
 
 .nav-item {
@@ -58,8 +60,8 @@ li {
     display: block;
 }
 ul li a{
-    
-   width: 250px;
+   margin: auto;
+   width: 264px;
    color: white;
    display: block;
    text-decoration: none;
@@ -68,6 +70,10 @@ ul li a{
    padding: 20px;
     
 
+}
+
+.nav-item:hover{
+	background-color: #4e5859;
 }
 
 a:hover{
