@@ -187,10 +187,14 @@ ul li:hover ul {
 	background-size: cover;
 }
 
-.row3 .six, .row3 .three{
-	height: 333px;
-	background-color: #DADFE1;
+.row3 .three{
+	height: 700px;
+    background-color: white;
+    padding-bottom: 30px;
 }
+
+
+
 
 .row4 .six, .row4 .three{
 	height: 333px;
@@ -209,14 +213,17 @@ ul li:hover ul {
 
 .row7 .six, .row7 .three{
 	height: 333px;
-	 
-	padding-bottom: 30px;
+	background-color: lightblue; 
 }
 
 .row8 {
 	height: 80px;
 	background-color: #38393d;
-	padding-top: 8px;
+    padding-top: 8px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
 
 
 
@@ -663,4 +670,18 @@ a .tres2:hover {
 .uni{
     text-decoration: underline;
     color: white;
+}
+
+.main{
+    height: 700px;
+	background: url(quem.jpg) no-repeat center center;
+	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.letra{
+    color: #38393d;
 }
